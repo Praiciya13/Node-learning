@@ -18,3 +18,8 @@ const interval = setInterval(() => {
     console.log("I'm the setinterval function")
     clearInterval(interval) // clear the interal
 }, 5000)
+
+//dirname and filename
+
+console.log(__dirname)
+console.log(__filename)
